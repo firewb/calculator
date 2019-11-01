@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import os
 title = "This is a scientfic calculator created by firew shafi"
 titlelen = len(title)
 def intro():
@@ -51,7 +50,7 @@ while x == 'y' or x == 'Y':
         print ('Unfortunatly my program is not yet ready to calculate complex number')
         print ('Please check back soon')
     x = input ('Would you like to perform another operation? Enter "y" for yes or any other key for no: ')
-    os.sys('clear')
+    
 print ('*'* titlelen)
 print (' {0:^53} '.format('Thanks for using my first program'))
 print ('*'* titlelen)
